@@ -24,7 +24,7 @@ CODIGO_EMPREGADOR=1A25S
 PIN=12345
 DEFAULT_ENTRY=09:00
 START_DATE=12/01/2026
-FILE_PATH=D:\git\laranjaAutomacao\src\relatorioApontamento2026-01-30T12_17_55.3025122Z.xlsx
+FILE_PATH=C:\caminho\para\relatorio.xlsx
 ```
 
 Notas:
