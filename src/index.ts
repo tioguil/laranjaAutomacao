@@ -1,6 +1,9 @@
-import "dotenv/config";
+import path from "node:path";
+import dotenv from "dotenv";
 import { chromium } from "playwright";
 import { buildPunchLinesFromXlsx } from "./readHours";
+
+dotenv.config({ path: path.resolve(__dirname, "..", ".env") });
 
 function requireEnv(name: string): string {
     const value = process.env[name];
